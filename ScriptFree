@@ -1,0 +1,25 @@
+local StarterGui = game:GetService("StarterGui")
+local PlaceId = game.PlaceId
+
+local ScriptList = {
+    [105555311806207] = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/buildazoo",    -- Build a zoo
+    [136801880565837] = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/aimbot",       -- [FPS] Flick
+    [12137249458]     = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/aimbot",       -- [FPS] Gun Grounds FFA
+    [18687417158]     = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/Forsaken",     -- Forsaken
+    [75632629806903]  = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/smashcombat",  -- Smash Combat
+    [104237125762426] = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/sword_fishing",-- [⚔️] Sword Fishing
+    [126509999114328] = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/99_Nights_in_the_forest%20" -- [🦃] 99 Nights
+}
+
+local targetScript = ScriptList[PlaceId]
+if targetScript then
+    loadstring(game:HttpGet(targetScript))()
+else
+    warn("XEPHEX HUB: Script not found for this game.")
+    StarterGui:SetCore("SendNotification", {
+        Title = "XEPHEX HUB",
+        Text = "❌ ไม่รองรับแมพนี้ / Script not support this game",
+        Icon = "rbxassetid://80283328189076",
+        Duration = 5,
+    })
+end
