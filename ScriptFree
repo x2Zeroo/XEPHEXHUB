@@ -6,7 +6,7 @@ local ScriptList = {
     [136801880565837] = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/aimbot",       -- [FPS] Flick
     [12137249458]     = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/aimbot",       -- [FPS] Gun Grounds FFA
     [18687417158]     = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/Forsaken",     -- Forsaken
-    [75632629806903]  = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/smashcombat",  -- Smash Combat
+    [75632629806903]  = "https://api.junkie-development.de/api/v1/luascripts/public/f39ad3cb1a715429d9755c860e3f8c609177d038231d76716bff46ad6d225194/download",  -- Smash Combat
     [104237125762426] = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/sword_fishing",-- [⚔️] Sword Fishing
     [126509999114328] = "https://api.junkie-development.de/api/v1/luascripts/public/5c7d87e36b6560a7823df079c9291c28f82a3a81863813267e7fe5706184774b/download" -- [🦃] 99 Nights
 }
