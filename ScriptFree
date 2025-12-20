@@ -8,7 +8,8 @@ local ScriptList = {
     [18687417158]     = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/Forsaken",     -- Forsaken
     [75632629806903]  = "https://api.junkie-development.de/api/v1/luascripts/public/f39ad3cb1a715429d9755c860e3f8c609177d038231d76716bff46ad6d225194/download",  -- Smash Combat
     [104237125762426] = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/sword_fishing",-- [⚔️] Sword Fishing
-    [126509999114328] = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/refs/heads/main/99_Nights_in_the_forest" -- [🦃] 99 Nights
+    [126509999114328] = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/refs/heads/main/99_Nights_in_the_forest", -- [🦃] 99 Nights
+    [118614517739521] = "https://api.junkie-development.de/api/v1/luascripts/public/587b8b171e885e50cb2cc662b94e8b9de54f9f8ec7067babfae9594ad8de18b9/download" --Blind-Shot
 }
 
 local targetScript = ScriptList[PlaceId]
