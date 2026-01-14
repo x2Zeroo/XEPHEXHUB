@@ -9,7 +9,8 @@ local ScriptList = {
     [75632629806903]  = "https://api.junkie-development.de/api/v1/luascripts/public/f39ad3cb1a715429d9755c860e3f8c609177d038231d76716bff46ad6d225194/download",  -- Smash Combat
     [104237125762426] = "https://raw.githubusercontent.com/x2Zeroo/XEPHEXHUB/main/sword_fishing",-- [⚔️] Sword Fishing
     [126509999114328] = "https://api.junkie-development.de/api/v1/luascripts/public/4625d9571f08abe18db023d0f3534286a2a3cf8063fffb55ef051cf196c4e5d6/download", -- [🦃] 99 Nights
-    [118614517739521] = "https://api.junkie-development.de/api/v1/luascripts/public/587b8b171e885e50cb2cc662b94e8b9de54f9f8ec7067babfae9594ad8de18b9/download" --Blind-Shot
+    [118614517739521] = "https://api.junkie-development.de/api/v1/luascripts/public/587b8b171e885e50cb2cc662b94e8b9de54f9f8ec7067babfae9594ad8de18b9/download", --Blind-Shot
+    [131623223084840] = "https://api.jnkie.com/api/v1/luascripts/public/15de03b672fba32a4a6abbf1e32d584963e9c5fb9d692bb2fe960ff070320b28/download"
 }
 
 local targetScript = ScriptList[PlaceId]
